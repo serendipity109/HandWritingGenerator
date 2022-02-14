@@ -1,0 +1,11 @@
+1. 設定一個語料庫像是 utils/char_source/road_corpus.txt。
+
+2. 設定一個相對應的json檔，像是utils/chnum.json，把語料庫中出現的字都給予對應的圖片地址。
+
+3. 執行gen_from_image_300.py 生成圖片。
+
+每個字的原始圖片位置： (sightour-3060)
+Chinese(/home/sightour/Desktop/training_data/handwrite_utils/THCD_data_all/cleaned_data)
+Egnlish(/home/sightour/Documents/sightour3/general-python-projects/Tools/handwritten_generator/emnist)
+Numbers(/home/sightour/Documents/sightour3/general-python-projects/Tools/handwritten_generator/mnist)
+-/(/home/sightour/Documents/sightour3/general-python-projects/Tools/handwritten_generator/dashslash)

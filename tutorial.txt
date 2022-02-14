@@ -1,0 +1,9 @@
+1. All handwriting image data is put under E:/handwriting_data_all/cleaned_data. Each character has about 50 images.
+
+2. Put text source under utils/char_source, put fonts under utils/fonts
+
+3. Run prepare_*_data.py to prepare different text source.
+
+4. (for gen_from_image.py) Run create_char_image_list.py if the image-list is not exist.
+
+5. Run gen_from_text/image and data is saved in 'D:/training_data/keras-chinese-ocr/train/images/00*'
